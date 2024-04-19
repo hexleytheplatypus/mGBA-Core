@@ -115,7 +115,6 @@
 		87D380E41D92545900FC657D /* patch-ups.c in Sources */ = {isa = PBXBuildFile; fileRef = 8701D6D51D19D4AE00E8A7D8 /* patch-ups.c */; };
 		87D380E61D925C9900FC657D /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 87D380BA1D92508500FC657D /* config.c */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		94AE2EFA17B0C1330018DFBB /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AE2EF917B0C1330018DFBB /* OpenEmuBase.framework */; };
 /* End PBXBuildFile section */
 
@@ -280,7 +279,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 				94AE2EFA17B0C1330018DFBB /* OpenEmuBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

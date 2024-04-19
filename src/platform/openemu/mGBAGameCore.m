@@ -39,7 +39,6 @@
 
 #import <OpenEmuBase/OERingBuffer.h>
 #import "OEGBASystemResponderClient.h"
-#import <OpenGL/gl.h>
 
 #define SAMPLES 1024
 
@@ -189,14 +188,14 @@ static struct mLogger logger = { .log = _log };
 	return hint;
 }
 
-- (GLenum)pixelFormat
+- (uint32_t)pixelFormat
 {
-    return GL_RGBA;
+    return OEPixelFormat_RGBA;
 }
 
-- (GLenum)pixelType
+- (uint32_t)pixelType
 {
-    return GL_UNSIGNED_INT_8_8_8_8_REV;
+    return OEPixelType_UNSIGNED_INT_8_8_8_8_REV;
 }
 
 - (NSTimeInterval)frameInterval
